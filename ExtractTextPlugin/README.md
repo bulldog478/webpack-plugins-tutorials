@@ -1,0 +1,1 @@
+webpack中CSS是可以被require()的，webpack会自动生成一个<style>标签加入到html的<head>中。但是实际上线时，我们可能只希望有一个被打包过的css文件。这时`ExtractTextPlugin`就可以完成这样的任务。
