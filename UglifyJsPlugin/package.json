@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "deploy": "webpack --progress --colors",
+    "test": "webpack && webpack-dev-server"
+  },
+  "devDependencies": {
+    "ng-annotate-webpack-plugin": "^0.1.2"
+  }
+}
